@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="shortcut icon" href="Foto/counter-4.png" type="image/x-icon">
+    <script>
+        function openbve(bve)
+        {
+            var i;
+            var x = document.getElementsByClassName("bve");
+            for (i = 0; i<x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(bve).style.display = "block";
+        }
+    </script>
+    <title>Tugas Besar WEB</title>
+</head>
+<body>
+    <div class="w3-container">
+        <center>
+            <img src="latarasli.jpg" width="100%" height="300">
+        </center>
+    </div>
+    <div class="w3-bar w3-cyan w3-card-4">
+        <button class="w3-bar-item w3-button" onclick="openbve('aespa')">Aespa</button>
+        <button class="w3-bar-item w3-button" onclick="openbve('karina')">Karina</button>
+        <button class="w3-bar-item w3-button" onclick="openbve('winter')">Winter</button>
+		<button class="w3-bar-item w3-button" onclick="openbve('Ningning')">Ningning</button>
+		<button class="w3-bar-item w3-button" onclick="openbve('giselle')">Giselle</button>
+			<div class="w3-dropdown-hover">
+				<button class="w3-button">Album</button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<button class="w3-bar-item w3-button" onclick="openbve('savage')">Savage-The1st Mini Album</button>
+					<button class="w3-bar-item w3-button" onclick="openbve('girls')">Girls-The2nd Mini Album</button>
+					</div>
+			</div>
+		<div class="w3-dropdown-hover">
+            <button class="w3-button">About Me </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openbve('profile')">Naufal Triutama </button> 
+            </div>
+		</div>
+	</div>
+				
+				
+				
+				<div id="savage" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+				<center>
+				<br>
+				<img src="album1.jpeg" width="200" height="200">	
+				<center>
+				<h2>Savage-The1st Mini Album</h2>
+					<hr>
+						<video width="1020px" controls>
+						<source src="savage.mp4" type="video/mp4">
+						</video>
+						<p>aespa 에스파 'Savage' MV</p>
+						</center>
+					<hr>
+					<p>Daftar Lagu</p>
+					<p>1. "aenergy. aespa."</p>
+					<p>2. "Savage. aespa."</p>
+					<p>3. "I'll Make You Cry. aespa."</p>
+					<p>4. "YEPPI YEPPI. aespa."</p>
+					<p>5. "ICONIC. aespa."</p>
+					<p>6. "Lucid Dream. aespa."</p>
+					<hr>
+					<p><a href="https://https://open.spotify.com/intl-id/album/3vyyDkvYWC36DwgZCYd3Wu/">Spotify</a></p>
+				</div>
+				
+				<div id="girls" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+				<center>
+				<br>
+				<img src="album2.jpeg" width="200" height="200">	
+				<center>
+				<h2>Girls-The2nd Mini Album</h2>
+					<hr>
+						<video width="1020px" controls>
+						<source src="Dreams .mp4" type="video/mp4">
+						</video>
+						<p>aespa 에스파 'Dreams Come True' MV</p>
+						</center>
+					<hr>
+					<p>Daftar Lagu</p>
+					<p>1. "Dreams Come True"</p>
+					<p>2. "Illusion"</p>
+					<p>3. "Lingo"</p>
+					<p>4. "Life's Too Short(English version)"</p>
+					<p>5. "Life's Too Short"</p>
+					<p>6. "ICU"</p>
+					<p>7. "Black Mamba"</p>
+					<p>8. "Forever" </p>
+					<p>9. "Girls"</p>
+					<hr>
+					<p><a href="https://open.spotify.com/intl-id/album/4w1dbvUy1crv0knXQvcSeY">Spotify</a></p>
+				</div>
+							
+							
+								
+								
+							
+	<div id="profile" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+	<center>
+        <hr>
+		<img src="nopal.jpeg" width="240" height="300">
+		<p class="w3-cyan w3-card-4"> Naufal Triutama Wijaya Sutarya</p>
+        <p>10123405 (IF 10)</p>
+        <p>Teknik Informatika</p>
+		<p>Universitas Komputer Indonesia</p>
+		<p><a href="https://www.instagram.com/nfltriutama/">Instagram</a></p>
+        </center>
+	</div>
+	<div id="aespa" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+        <center>
+        <hr>
+        <img src="aespaa.jpg" width="500" height="300">
+        <p class="w3-purple w3-card-4">AESPA</p>
+        <p>aespa (에스파), ditulis dengan æspa,nama ini rupanya datang dari kata-kata "avatar", "experience", dan "aspect." SM menyebut bahwa maknanya adalah "dapat mengalami dunia yang baru lewat avatar lain dari dirimu". Sementara kata "aspek" juga berarti bahwa grup ini memiliki banyak sisi. aespa adalah girl grup Korea Selatan beranggotakan 4 orang di bawah naungan SM Entertainment. Grup tersebut terdiri dari Karina, Giselle, Winter dan Ningning.</p>
+		<p><a href="https://www.instagram.com/aespa_official/">Instagram aespa</a></p>
+        </center>
+    </div>
+	<div id="karina" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+        <center>
+        <hr>
+		<img src="karinajpg1.jpg" width="350" height="400">
+		<p class="w3-blue w3-card-4">KARINA; Leader, Vocal, Rapper</p>
+		<p>Nama Panggung: Karina (카리나)</p>
+		<p>Nama Asli: Yoo Ji Min (유지민)</p>
+		<p>Tanggal Lahir: 11 April 2000</p>
+		<p>Tinggi Badan: 167 cm</p>
+		<p>Menjadi leader sekaligus member tertua di AESPA, Karina menjalani masa trainee selama 4 tahun. Gadis yang pernah menempuh pendidikan di Hansol High School ini juga memiliki nama panggilan lain, yaitu Karomi.Sebelum debut bersama AESPA, Karina sudah pernah muncul di publik, tepatnya di MV Taemin yang berjudul ‘Want’. Nggak cuma itu, ia juga menjadi penari untuk promosi panggung.</p>
+		<p><a href="https://www.instagram.com/katarinabluu/">Instagram</a></p>
+
+		</center>
+	</div>
+	<div id="winter" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+        <center>
+        <hr>
+        <img src="winter.jpeg" width="350" height="400">
+        <p class="w3-white w3-card-4">WINTER; Vocal, Dancer</p>
+		<p>Nama Panggung: Winter (윈터)
+			Nama Asli: Kim Min Jeong (김민정)
+			Tanggal Lahir: 1 January 2001
+			Tinggi Badan: 163 cm </p>
+        <p>Sering disebut mirip Taeyeon SNSD dengan fansnya, ternyata Winter pernah bercita-cita menjadi artis sebelum debut sebagai idol bersama AESPA. Ia pernah menempuh pendidikan di Sekolah Dasar Yangsan Samsung dan Sekolah Menengah Yangsan Samsung. Bahkan, saat masih sekolah gadis yang menyukai film bergenre aksi ini juga pernah menjabat sebagai wakil presiden di sekolahnya, loh.</p>
+		<p><a href="https://www.instagram.com/imwinter/">Instagram</a></p>
+        </center>
+	</div>
+	<div id="Ningning" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+        <center>
+        <hr>
+        <img src="ningning.jpeg" width="350" height="400">
+        <p class="w3-yellow w3-card-4">NINGNING; Vocal, Maknae</p>
+		<p>Nama Panggung: Ningning (닝닝)</p>
+		<p>Nama Asli: Ning Yizhuo (宁艺卓)</p>
+		<p>Tanggal Lahir: 23 Oktober 2002</p>
+		<p>Tinggi Badan: 162 cm</p>
+		<p>Dikenal sebagai member termuda di AESPA, sebelum debut Ningning pernah beberapa kali tampil di kompetisi bernyanyi di China. Bahkan, dirinya termasuk kontestan China’s We Got Talent,, China’s New Generation, dan Let’s Sing Kids. Nggak cuma itu, selama masa trainee pun, Ningning menjadi anggota SM Rookies. Ia juga menjadi member terlama yang menjalani masa pelatihan, yaitu 5 tahun.</p>
+		<p><a href="https://www.instagram.com/imnotningning/">Instagram</a></p>
+		<center>
+	</div>
+	<div id="giselle" class="w3-container bve w3-animate-top w3-teal" style="display: none;">
+        <center>
+        <hr>
+        <img src="giselle.jpeg" width="250" height="400">
+        <p class="w3-pink w3-card-4">WINTER; Rapper, Vocal</p>
+		<p>Nama Panggung: Giselle
+			Nama Asli: Uchinaga Aeri (うちながえり/우치나가에리)
+			Tanggal Lahir: 30 Oktober 2000
+			Tinggi Badan: 166 cm</p>
+		<p>Lahir dari keturunan Jepang, Giselle memiliki nama panggilan lain, yaitu Riri. Meski begitu, ia lahir di Gangnam, Korea Selatan, lalu dibesarkan di Tokyo, Jepang. Saat masih di Jepang, Giselle menjadi rekan semasa Rima dari NiziU, salah satu idol Jepang. Semasa sekolahnya Giselle sudah aktif di bidang tarik suara selama 4 tahun. Bahkan, ia menjadi anggota Paduan Suara St. Mary, loh.</p>
+		<p><a href="https://www.instagram.com/aerichandesu/">Instagram</a></p>
+		
+		
+</body>
+</html>
